@@ -26,7 +26,6 @@ const displayDetails = name => {
 };
 // Render Single Food section
 const renderFoodInfo = (food) => {
-    // Get all ingredients section
     const ingredients = [];
     for (let i = 1; i <= 20; i++) {
         if (food[`strIngredient${i}`]) {
