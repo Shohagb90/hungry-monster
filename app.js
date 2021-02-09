@@ -39,8 +39,6 @@ const renderFoodInfo = (food) => {
     foodDetailsDiv.innerHTML = `
     <img class="img-fluid rounded mb-4" src="${food.strMealThumb}" alt="">
     <h4>${food.strMeal}</h4>
-    
-    <h5 class="pt-3 pb-2"><i class="icon-fire icons"></i> Ingredients</h5>
     <ul class="list-unstyled mb-0">
     ${ingredients.map((ingredient) => `<li><i class="icon-check icons"></i>${ingredient}</li>`).join('')}
     </ul>
